@@ -67,6 +67,6 @@ resource "libvirt_domain" "vm-example" {
   graphics {
       type = "vnc"
       listen_type = "address"
-      autoport = "true"
+      autoport = true
   }
 }
